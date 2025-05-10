@@ -21,7 +21,7 @@ const CallToAction: React.FC = () => {
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 mr-3" />
-                <a href="tel:+1234567890" className="hover:underline">+123 456 7890</a>
+                <a href="tel:+1234567890" className="hover:underline">+255700000</a>
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ const CallToAction: React.FC = () => {
                   type="text" 
                   id="company" 
                   className="w-full px-4 py-2 rounded-md bg-white/20 border border-blue-300 focus:outline-none focus:ring-2 focus:ring-teal-500 text-white placeholder-blue-200"
-                  placeholder="Your MFC"
+                  placeholder="Your microFinance"
                 />
               </div>
               <div>
@@ -62,7 +62,7 @@ const CallToAction: React.FC = () => {
                   type="tel" 
                   id="phone" 
                   className="w-full px-4 py-2 rounded-md bg-white/20 border border-blue-300 focus:outline-none focus:ring-2 focus:ring-teal-500 text-white placeholder-blue-200"
-                  placeholder="+123 456 7890"
+                  placeholder="+255700000"
                 />
               </div>
               <Button 

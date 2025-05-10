@@ -6,6 +6,7 @@ import Differentiator from './components/Differentiator';
 import HowItWorks from './components/HowItWorks';
 import SocialProof from './components/SocialProof';
 import CallToAction from './components/CallToAction';
+import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <div className="font-sans">
+      <Navbar />
       <Hero />
       <ProblemSolution />
       <KeyBenefits />
