@@ -7,6 +7,7 @@ import HowItWorks from './components/HowItWorks';
 import SocialProof from './components/SocialProof';
 import CallToAction from './components/CallToAction';
 import Navbar from './components/Navbar';
+import Pricing from './components/Pricing';
 import Footer from './components/Footer';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <KeyBenefits />
       <Differentiator />
       <HowItWorks />
+      <Pricing />
       <SocialProof />
       <CallToAction />
       <Footer />
